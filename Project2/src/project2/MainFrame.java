@@ -450,35 +450,15 @@ public class MainFrame extends javax.swing.JFrame {
                         .addGap(86, 86, 86)
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(caj2)
-                            .addComponent(bcaj2, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(124, 124, 124)
-                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(bcaj3, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(caj3))
-                        .addGap(81, 81, 81)
-                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(bcaj4, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(caj4)))
+                            .addComponent(bcaj2, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addGap(47, 47, 47)
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel4Layout.createSequentialGroup()
-                                .addComponent(pper1)
-                                .addGap(128, 128, 128)
-                                .addComponent(pper2)
-                                .addGap(179, 179, 179)
-                                .addComponent(pper3)
-                                .addGap(111, 111, 111)
-                                .addComponent(pper4))
-                            .addGroup(jPanel4Layout.createSequentialGroup()
-                                .addComponent(ppcaj1)
-                                .addGap(335, 335, 335)
-                                .addComponent(ppcaj3)
-                                .addGap(111, 111, 111)
-                                .addComponent(ppcaj4))
-                            .addGroup(jPanel4Layout.createSequentialGroup()
-                                .addGap(506, 506, 506)
-                                .addComponent(sper4))))
+                            .addComponent(pper1)
+                            .addComponent(ppcaj1))))
+                .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
@@ -495,42 +475,56 @@ public class MainFrame extends javax.swing.JFrame {
                                         .addGap(60, 60, 60)
                                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(bar2, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(ppcaj2)))
+                                            .addComponent(ppcaj2)
+                                            .addComponent(cper2, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                     .addGroup(jPanel4Layout.createSequentialGroup()
                                         .addGap(43, 43, 43)
-                                        .addComponent(sper2)))
+                                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(pper2)
+                                            .addComponent(sper2))))
                                 .addGap(17, 17, 17)))
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel4Layout.createSequentialGroup()
-                                .addGap(84, 84, 84)
-                                .addComponent(pcaj3)
-                                .addGap(41, 41, 41))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGap(39, 39, 39)
                                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(bar3, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(sper3))
-                                .addGap(74, 74, 74)))
-                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(pcaj4)
+                                    .addComponent(pper3)
+                                    .addGroup(jPanel4Layout.createSequentialGroup()
+                                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                            .addComponent(sper3)
+                                            .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addComponent(cper3, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addComponent(bar3, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addGap(94, 94, 94)
+                                        .addComponent(cper4, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))))
                             .addGroup(jPanel4Layout.createSequentialGroup()
-                                .addGap(15, 15, 15)
-                                .addComponent(bar4, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                .addGap(111, 111, 111))
-            .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGap(55, 55, 55)
-                .addComponent(cper1, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(150, 150, 150)
-                .addComponent(cper2, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(164, 164, 164)
-                .addComponent(cper3, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(cper4, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(160, 160, 160))
-            .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGap(249, 249, 249)
-                .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addGap(47, 47, 47)
+                                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel4Layout.createSequentialGroup()
+                                        .addComponent(caj3)
+                                        .addGap(123, 123, 123)
+                                        .addComponent(caj4))
+                                    .addGroup(jPanel4Layout.createSequentialGroup()
+                                        .addComponent(bcaj3, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(111, 111, 111)
+                                        .addComponent(bcaj4, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(jPanel4Layout.createSequentialGroup()
+                                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(pcaj3)
+                                            .addComponent(ppcaj3))
+                                        .addGap(70, 70, 70)
+                                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(ppcaj4)
+                                            .addComponent(pcaj4)
+                                            .addComponent(pper4)
+                                            .addComponent(sper4)
+                                            .addComponent(bar4, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)))))))
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addGap(249, 249, 249)
+                        .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addGap(55, 55, 55)
+                        .addComponent(cper1, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(89, 89, Short.MAX_VALUE))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -555,11 +549,12 @@ public class MainFrame extends javax.swing.JFrame {
                     .addComponent(bcaj4, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(bcaj3, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(pcaj2)
-                    .addComponent(pcaj3)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(pcaj4)
-                    .addComponent(pcaj1))
+                    .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(pcaj2)
+                        .addComponent(pcaj1))
+                    .addComponent(pcaj3))
                 .addGap(33, 33, 33)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(ppcaj1)
@@ -597,11 +592,11 @@ public class MainFrame extends javax.swing.JFrame {
         jd2.getContentPane().setLayout(jd2Layout);
         jd2Layout.setHorizontalGroup(
             jd2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 675, Short.MAX_VALUE)
+            .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         jd2Layout.setVerticalGroup(
             jd2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -761,13 +756,9 @@ public class MainFrame extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
         Cajero c1= new Cajero();
-        Cajero c2= new Cajero();
-        Cajero c3= new Cajero();
-        Cajero c4= new Cajero();
+        
         listaca.add(c1);
-        listaca.add(c2);
-        listaca.add(c3);
-        listaca.add(c4);
+        
         Cola cola1=new Cola();
         Pila pila1=new Pila();
         int spin=(int)spinner1.getValue();
@@ -794,44 +785,53 @@ public class MainFrame extends javax.swing.JFrame {
             int cc=65;
             int conts=0;
             int cont2=1;
-            jseconds.setText("0");
-            Persona p2=new Persona();
-            p2.setNombre("luis");
-            cola1.Pone(p2);
-            while(cc!=0){
+            
+            System.out.println("COLA 1 SIZE: "+cola1.getLista().size());
+            cola1.imprime();
+            while(cola1.getLista().size()!=0){
                 c1.setP(pila1);
                 pb1.setMaximum(cc);
                 Persona e1=new Persona();
                 e1=cola1.agarrarPersona(0);
-                Persona e2=cola1.agarrarPersona(1);
-                colapersona.setText(e2.getNombre());
+                
                 c1.setVacio(true);
                 if(c1.isVacio()==true){
-                    c1.setVacio(false);
-                    c1.setPersona(e1);
-                    
-                    per1.setText(e1.getNombre());
-                    Random r= new Random();
-                    int rr=r.nextInt(3)+1;
-                    conts+=rr;
-                    jseconds.setText(conts+"");
-                    try {
-                        Thread.sleep(rr+1000);
-                    } catch (InterruptedException ex) {
-                        //Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
-                    }
-                    cc--;
-                    pb1.setValue(cc);
-                    cola1.Quita();
-                    String pass=c1.getPersona().getNombre()+" , Accion: "+c1.getPersona().getTransaccion()+" Tardanza: "+rr;
-                    c1.setTipo(pass+"\n");
-                    pila1.Mete(pass);//meto a la pila
-                    
-                    JOptionPane.showMessageDialog(jd1, "CAJERO VACIO SIGUIENTE PERSONA");
-                    
+                        c1.setVacio(false);
+                        if(cola1.getLista().size()!=0){
+                            c1.setPersona(cola1.getLista().get(0));
+                            Random r= new Random();
+                            int rr=r.nextInt(3)+1;
+                            conts+=rr;
+                            jseconds.setText(conts+"");
+                            per1.setText(cola1.getLista().get(0).getNombre());
+                            try {
+                                Thread.sleep(rr+1000);
+                            } catch (InterruptedException ex) {
+                                //Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+                            }
+                            cc--;
+                            if(cola1.getLista().size()!=0)
+                            cola1.Quita();
+                            String pass=c1.getPersona().getNombre()+" , Accion: "+c1.getPersona().getTransaccion()+" Tardanza: "+rr;
+                            c1.setTipo(pass+"\n");
+                            pila1.Mete(pass);//meto a la pila
+
+                            JOptionPane.showMessageDialog(jd1, "CAJERO VACIO SIGUIENTE PERSONA");
+                            c1.setVacio(true);
+                             System.out.println(cola1.getLista().size());
+                             pb1.setValue(cc);
+                            // colapersona.setText(cola1.getLista().get(0).getNombre());
+                            //System.out.println("Control : "+cc);
+                        }
+                        if(cola1.getLista().size()>1){
+                            colapersona.setText(cola1.getLista().get(1).getNombre());
+                        }
+                        
                 }       
             }
-            cola1.Quita();//quito de la cola
+            System.out.println("PILA 1 SIZE: "+pila1.getLista().size());
+            pila1.imprime();
+            
             //pila1.imprime();
             jdr1.setModal(true); //no poder tocar a principal
             jdr1.pack();//tamaño se acople a los controles preestablecidos
@@ -873,6 +873,9 @@ public class MainFrame extends javax.swing.JFrame {
             int cc=65;
             jseconds.setText("0");
             int conts=0;
+            System.out.println("COLA 1 SIZE: "+cola1.getLista().size());
+            cola1.imprime();
+            
             while(cola1.getLista().size()!=0){
                 
                 ca1.setP(p1);
@@ -1022,6 +1025,10 @@ public class MainFrame extends javax.swing.JFrame {
                 
                 
             }
+            System.out.println("Pila 1 SIZE: "+p1.getLista().size());
+            p1.imprime();
+            System.out.println("Pila 2 SIZE: "+p2.getLista().size());
+            p2.imprime();
             System.out.println("cajero 1");
             ca1.getP().imprime();
             System.out.println("cajero 2");
@@ -1069,6 +1076,8 @@ public class MainFrame extends javax.swing.JFrame {
             int cc=65;
             int conts=0;
             jseconds.setText("0");
+            System.out.println("COLA 1: size: "+cola1.getLista().size());
+            cola1.imprime();
             while(cola1.getLista().size()!=0){
                 ca1.setP(p1);
                 ca2.setP(p2);
@@ -1282,6 +1291,12 @@ public class MainFrame extends javax.swing.JFrame {
                 }
                 
             }//fin
+            System.out.println("Pila 1 SIZE: "+p1.getLista().size());
+            p1.imprime();
+            System.out.println("Pila 2 SIZE: "+p2.getLista().size());
+            p2.imprime();
+            System.out.println("Pila 3 SIZE: "+p3.getLista().size());
+            p3.imprime();
             System.out.println("cajero 1");
             ca1.getP().imprime();
             System.out.println("cajero 2");
@@ -1334,6 +1349,7 @@ public class MainFrame extends javax.swing.JFrame {
             int cc=65;
             int conts=0;
             jseconds.setText("0");
+            System.out.println("COLA 1 size: "+cola1.getLista().size());
             while(cola1.getLista().size()!=0){
                 ca1.setP(p1);
                 ca2.setP(p2);
@@ -1612,6 +1628,14 @@ public class MainFrame extends javax.swing.JFrame {
                         }
                 }
             }//else
+            System.out.println("Pila 1 SIZE: "+p1.getLista().size());
+            p1.imprime();
+            System.out.println("Pila 2 SIZE: "+p2.getLista().size());
+            p2.imprime();
+            System.out.println("Pila 3 SIZE: "+p3.getLista().size());
+            p3.imprime();
+            System.out.println("Pila 4 SIZE: "+p4.getLista().size());
+            p4.imprime();
             System.out.println("cajero 1");
             ca1.getP().imprime();
             System.out.println("cajero 2");
@@ -1634,19 +1658,22 @@ public class MainFrame extends javax.swing.JFrame {
         // TODO add your handling code here:
         //System.out.println("tam lista cajero"+listaca.size());
         if(rb1.isSelected()){
+            ta1.setText("");
             //ta1.setText("CAJERO #1 REGISTRO: "+"\n");
             Cajero ca1=listaca.get(0);
             Pila pa1=ca1.getP();
             //pa1.imprime();
+            
             ta1.append("CAJERO #1 REGISTRO: "+"\n");
             for (int i = 0; i < pa1.getLista().size(); i++) {
                 
                 ta1.append(ca1.getP().getLista().get(i)+"\n");
                
             }
-            
+            ta1.removeAll();
         }
         if(rb2.isSelected()){
+            ta1.setText("");
             //ta1.setText("CAJERO #1 REGISTRO: "+"\n");
             Cajero ca1=listaca.get(1);
             Pila pa1=ca1.getP();
@@ -1657,9 +1684,11 @@ public class MainFrame extends javax.swing.JFrame {
                 ta1.append(ca1.getP().getLista().get(i)+"\n");
                 
             }
+            ta1.removeAll();
             
         }
         if(rb3.isSelected()){
+            ta1.setText("");
             //ta1.setText("CAJERO #1 REGISTRO: "+"\n");
             Cajero ca1=listaca.get(2);
             Pila pa1=ca1.getP();
@@ -1671,8 +1700,10 @@ public class MainFrame extends javax.swing.JFrame {
                 
             }
             
+            
         }
          if(rb4.isSelected()){
+             ta1.setText("");
             //ta1.setText("CAJERO #1 REGISTRO: "+"\n");
             Cajero ca1=listaca.get(3);
             Pila pa1=ca1.getP();
@@ -1683,6 +1714,7 @@ public class MainFrame extends javax.swing.JFrame {
                 ta1.append(ca1.getP().getLista().get(i)+"\n");
                 
             }
+            
             
         }
         
@@ -1882,7 +1914,7 @@ public class MainFrame extends javax.swing.JFrame {
             bar1.setValue(cont1);
             bar2.setMaximum(68);
             bar2.setValue(cont2);
-            while(c1.getLista().size()!=0&&c2.getLista().size()!=0){
+            while(c1.getLista().size()!=0||c2.getLista().size()!=0){
                 Cajero caj1=new Cajero();
                 Cajero caj2=new Cajero();
                 listaca.add(caj1);
@@ -2048,6 +2080,8 @@ public class MainFrame extends javax.swing.JFrame {
                 }
                 
             }
+            bar1.setValue(0);
+            bar2.setValue(0);
             System.out.println("SIZE COLA 1: "+c1.getLista().size());   
             System.out.println("SIZE COLA 2: "+c2.getLista().size());   
             System.out.println("PILA 1");
@@ -2062,6 +2096,757 @@ public class MainFrame extends javax.swing.JFrame {
             jdr1.setVisible(true);
             listaca.remove(0);
                      
+         }//opcion2
+         if(num==3){
+             Cola c1=new Cola();
+             Cola c2=new Cola();
+             Cola c3=new Cola();
+             Pila p1=new Pila();
+             Pila p2=new Pila();
+             Pila p3=new Pila();
+             ArrayList <Persona> listap=new ArrayList();
+             for(int i=0;i<60;i++){
+                String name="Persona"+i;
+                Random r= new Random();
+                int t=r.nextInt(3)+1;
+                String tra="";
+                if(t==1){
+                    tra="Retiro";
+                }
+                if(t==2){
+                    tra="Pago";
+                }
+                if(t==3){
+                    tra="Transferencia";
+                }
+                Persona p=new Persona();
+                p.setTransaccion(tra);
+                p.setNombre(name);
+                listap.add(p);
+             }
+             for(int i=0;i<listap.size();i++){
+                 if(listap.size()!=0){
+                    Random r= new Random();
+                    int t=r.nextInt(3)+1;
+                    if(t==1){
+                        c1.Pone(listap.get(i));
+                    }
+                    if(t==2){
+                        c2.Pone(listap.get(i));
+                    }
+                    if(t==3){
+                        c3.Pone(listap.get(i));
+                    }
+                 }
+            }
+            System.out.println("LISTA 1");
+            c1.imprime();
+            System.out.println("SIZE: "+c1.getLista().size());
+            System.out.println("LISTA 2");
+            c2.imprime();
+            System.out.println("SIZE: "+c2.getLista().size());
+            System.out.println("LISTA 3");
+            c3.imprime();
+            System.out.println("SIZE: "+c3.getLista().size());
+            int conts=0;
+            int cont1=60;
+            int cont2=60;
+            int cont3=60;
+            bar1.setMaximum(60);
+            bar1.setValue(59);
+            bar2.setMaximum(60);
+            bar2.setValue(59);
+            bar3.setMaximum(60);
+            bar3.setValue(59);
+            while(c1.getLista().size()!=0||c2.getLista().size()!=0||c3.getLista().size()!=0){
+                Cajero caj1=new Cajero();
+                Cajero caj2=new Cajero();
+                Cajero caj3=new Cajero();
+                listaca.add(caj1);
+                listaca.add(caj2);
+                listaca.add(caj3);
+                
+                caj1.setP(p1);
+                caj2.setP(p2);
+                caj3.setP(p3);
+                
+                caj1.setVacio(true);
+                caj2.setVacio(true);
+                caj3.setVacio(true);
+                if(caj1.isVacio()==true&&caj2.isVacio()==true&&caj3.isVacio()==true){
+                    Random r= new Random();
+                    int t=r.nextInt(3)+1;
+                    if(t==1){
+                        caj1.setVacio(false);
+                        if(c1.getLista().size()!=0){
+                            caj1.setPersona(c1.getLista().get(0));
+                            Random r2= new Random();
+                            int rr2=r2.nextInt(3)+1;
+                            conts+=rr2;
+                            jseconds2.setText(conts+"");
+                            ppcaj1.setText(c1.getLista().get(0).getNombre());
+                            try {
+                                Thread.sleep(rr2+1000);
+                            } catch (InterruptedException ex) {
+                                //Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+                            }
+                            //cc--;
+                            if(c1.getLista().size()!=0)
+                            c1.Quita();
+                            String pass=caj1.getPersona().getNombre()+" , Accion: "+caj1.getPersona().getTransaccion()+" Tardanza: "+rr2;
+                            caj1.setTipo(pass+"\n");
+                            p1.Mete(pass);//meto a la pila
+
+                            JOptionPane.showMessageDialog(jd2, "CAJERO VACIO SIGUIENTE PERSONA");
+                            caj1.setVacio(true);
+                            
+                            //System.out.println("Control : "+cc);
+                           
+                            
+                            //colapersona.setText(cola1.getLista().get(0).getNombre());
+                            
+                            
+                        }
+                        if(c1.getLista().size()>1){
+                            pper1.setText(c1.getLista().get(1).getNombre());
+                        }
+                        cont1--;
+                        bar1.setValue(cont1);
+                    }
+                    //2
+                    if(t==2){
+                        caj2.setVacio(false);
+                        if(c2.getLista().size()!=0){
+                            caj2.setPersona(c2.getLista().get(0));
+                            Random r2= new Random();
+                            int rr2=r2.nextInt(3)+1;
+                            conts+=rr2;
+                            jseconds2.setText(conts+"");
+                            ppcaj2.setText(c2.getLista().get(0).getNombre());
+                            try {
+                                Thread.sleep(rr2+1000);
+                            } catch (InterruptedException ex) {
+                                //Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+                            }
+                            //cc--;
+                            if(c2.getLista().size()!=0)
+                            c2.Quita();
+                            String pass=caj2.getPersona().getNombre()+" , Accion: "+caj2.getPersona().getTransaccion()+" Tardanza: "+rr2;
+                            caj2.setTipo(pass+"\n");
+                            p2.Mete(pass);//meto a la pila
+
+                            JOptionPane.showMessageDialog(jd2, "CAJERO VACIO SIGUIENTE PERSONA");
+                            caj2.setVacio(true);
+                            
+                            //System.out.println("Control : "+cc);
+                           
+                            
+                            //colapersona.setText(cola1.getLista().get(0).getNombre());
+                            
+                            
+                        }
+                        if(c2.getLista().size()>1){
+                            pper2.setText(c2.getLista().get(1).getNombre());
+                        }
+                        cont2--;
+                        bar2.setValue(cont2);
+                    }//3
+                    
+                    if(t==3){
+                        caj3.setVacio(false);
+                        if(c3.getLista().size()!=0){
+                            caj3.setPersona(c3.getLista().get(0));
+                            Random r2= new Random();
+                            int rr2=r2.nextInt(3)+1;
+                            conts+=rr2;
+                            jseconds2.setText(conts+"");
+                            ppcaj3.setText(c3.getLista().get(0).getNombre());
+                            try {
+                                Thread.sleep(rr2+1000);
+                            } catch (InterruptedException ex) {
+                                //Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+                            }
+                            //cc--;
+                            if(c3.getLista().size()!=0)
+                            c3.Quita();
+                            String pass=caj3.getPersona().getNombre()+" , Accion: "+caj3.getPersona().getTransaccion()+" Tardanza: "+rr2;
+                            caj3.setTipo(pass+"\n");
+                            p3.Mete(pass);//meto a la pila
+
+                            JOptionPane.showMessageDialog(jd2, "CAJERO VACIO SIGUIENTE PERSONA");
+                            caj3.setVacio(true);
+                            
+                            //System.out.println("Control : "+cc);
+                           
+                            
+                            //colapersona.setText(cola1.getLista().get(0).getNombre());
+                            
+                            
+                        }
+                        if(c3.getLista().size()>1){
+                            pper3.setText(c3.getLista().get(1).getNombre());
+                        }
+                        cont3--;
+                        bar3.setValue(cont3);
+                    }
+                }
+                if(caj1.isVacio()==true){
+                    caj1.setVacio(false);
+                        if(c1.getLista().size()!=0){
+                            caj1.setPersona(c1.getLista().get(0));
+                            Random r2= new Random();
+                            int rr2=r2.nextInt(3)+1;
+                            conts+=rr2;
+                            jseconds2.setText(conts+"");
+                            ppcaj1.setText(c1.getLista().get(0).getNombre());
+                            try {
+                                Thread.sleep(rr2+1000);
+                            } catch (InterruptedException ex) {
+                                //Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+                            }
+                            //cc--;
+                            if(c1.getLista().size()!=0)
+                            c1.Quita();
+                            String pass=caj1.getPersona().getNombre()+" , Accion: "+caj1.getPersona().getTransaccion()+" Tardanza: "+rr2;
+                            caj1.setTipo(pass+"\n");
+                            p1.Mete(pass);//meto a la pila
+
+                            JOptionPane.showMessageDialog(jd2, "CAJERO VACIO SIGUIENTE PERSONA");
+                            caj1.setVacio(true);
+                            
+                            //System.out.println("Control : "+cc);
+                           
+                            
+                            //colapersona.setText(cola1.getLista().get(0).getNombre());
+                            
+                            
+                        }
+                        if(c1.getLista().size()>1){
+                            pper1.setText(c1.getLista().get(1).getNombre());
+                        }
+                    cont1--;
+                    bar1.setValue(cont1);
+                }
+                if(caj2.isVacio()==true){
+                    caj2.setVacio(false);
+                        if(c2.getLista().size()!=0){
+                            caj2.setPersona(c2.getLista().get(0));
+                            Random r2= new Random();
+                            int rr2=r2.nextInt(3)+1;
+                            conts+=rr2;
+                            jseconds2.setText(conts+"");
+                            ppcaj2.setText(c2.getLista().get(0).getNombre());
+                            try {
+                                Thread.sleep(rr2+1000);
+                            } catch (InterruptedException ex) {
+                                //Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+                            }
+                            //cc--;
+                            if(c2.getLista().size()!=0)
+                            c2.Quita();
+                            String pass=caj2.getPersona().getNombre()+" , Accion: "+caj2.getPersona().getTransaccion()+" Tardanza: "+rr2;
+                            caj2.setTipo(pass+"\n");
+                            p2.Mete(pass);//meto a la pila
+
+                            JOptionPane.showMessageDialog(jd2, "CAJERO VACIO SIGUIENTE PERSONA");
+                            caj2.setVacio(true);
+                            
+                            //System.out.println("Control : "+cc);
+                           
+                            
+                            //colapersona.setText(cola1.getLista().get(0).getNombre());
+                            
+                            
+                        }
+                        if(c2.getLista().size()>1){
+                            pper2.setText(c2.getLista().get(1).getNombre());
+                        }
+                    cont2--;
+                    bar2.setValue(cont2);
+                }
+                if(caj3.isVacio()==true){
+                    caj3.setVacio(false);
+                        if(c3.getLista().size()!=0){
+                            caj3.setPersona(c3.getLista().get(0));
+                            Random r2= new Random();
+                            int rr2=r2.nextInt(3)+1;
+                            conts+=rr2;
+                            jseconds2.setText(conts+"");
+                            ppcaj3.setText(c3.getLista().get(0).getNombre());
+                            try {
+                                Thread.sleep(rr2+1000);
+                            } catch (InterruptedException ex) {
+                                //Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+                            }
+                            //cc--;
+                            if(c3.getLista().size()!=0)
+                            c3.Quita();
+                            String pass=caj3.getPersona().getNombre()+" , Accion: "+caj3.getPersona().getTransaccion()+" Tardanza: "+rr2;
+                            caj3.setTipo(pass+"\n");
+                            p3.Mete(pass);//meto a la pila
+
+                            JOptionPane.showMessageDialog(jd2, "CAJERO VACIO SIGUIENTE PERSONA");
+                            caj3.setVacio(true);
+                            
+                            //System.out.println("Control : "+cc);
+                           
+                            
+                            //colapersona.setText(cola1.getLista().get(0).getNombre());
+                            
+                            
+                        }
+                        if(c3.getLista().size()>1){
+                            pper3.setText(c3.getLista().get(1).getNombre());
+                        }
+                        cont3--;
+                        bar3.setValue(cont3);
+                }
+
+            }
+            bar1.setValue(0);
+            bar2.setValue(0);
+            bar3.setValue(0);
+            System.out.println("SIZE COLA 1: "+c1.getLista().size());   
+            System.out.println("SIZE COLA 2: "+c2.getLista().size());  
+            System.out.println("SIZE COLA 3: "+c3.getLista().size()); 
+            System.out.println("PILA 1");
+            p1.imprime();
+             System.out.println("SIZE 1: "+p1.getLista().size());
+            System.out.println("PILA 2");
+            p2.imprime();
+            System.out.println("SIZE 2: "+p2.getLista().size());
+            System.out.println("PILA 3");
+            p3.imprime();
+            System.out.println("SIZE 3: "+p3.getLista().size());
+            jdr1.setModal(true); //no poder tocar a principal
+            jdr1.pack();//tamaño se acople a los controles preestablecidos
+            jdr1.setLocationRelativeTo(this);//centro de la principal
+            jdr1.setVisible(true);
+            listaca.remove(0);
+                
+         }//4
+         if(num==4){
+             Cola c1=new Cola();
+             Cola c2=new Cola();
+             Cola c3=new Cola();
+             Cola c4=new Cola();
+             Pila p1=new Pila();
+             Pila p2=new Pila();
+             Pila p3=new Pila();
+             Pila p4=new Pila();
+             ArrayList <Persona> listap=new ArrayList();
+             for(int i=0;i<60;i++){
+                String name="Persona"+i;
+                Random r= new Random();
+                int t=r.nextInt(3)+1;
+                String tra="";
+                if(t==1){
+                    tra="Retiro";
+                }
+                if(t==2){
+                    tra="Pago";
+                }
+                if(t==3){
+                    tra="Transferencia";
+                }
+                Persona p=new Persona();
+                p.setTransaccion(tra);
+                p.setNombre(name);
+                listap.add(p);
+             }
+             for(int i=0;i<listap.size();i++){
+                 if(listap.size()!=0){
+                    Random r= new Random();
+                    int t=r.nextInt(4)+1;
+                    if(t==1){
+                        c1.Pone(listap.get(i));
+                    }
+                    if(t==2){
+                        c2.Pone(listap.get(i));
+                    }
+                    if(t==3){
+                        c3.Pone(listap.get(i));
+                    }
+                    if(t==4){
+                        c4.Pone(listap.get(i));
+                    }
+                 }
+            }
+            System.out.println("LISTA 1");
+            c1.imprime();
+            System.out.println("SIZE: "+c1.getLista().size());
+            System.out.println("LISTA 2");
+            c2.imprime();
+            System.out.println("SIZE: "+c2.getLista().size());
+            System.out.println("LISTA 3");
+            c3.imprime();
+            System.out.println("SIZE: "+c3.getLista().size());
+            System.out.println("LISTA 4");
+            c4.imprime();
+            System.out.println("SIZE: "+c4.getLista().size());
+            int conts=0;
+            int cont1=60;
+            int cont2=60;
+            int cont3=60;
+            int cont4=60;
+            bar1.setMaximum(60);
+            bar1.setValue(59);
+            bar2.setMaximum(60);
+            bar2.setValue(59);
+            bar3.setMaximum(60);
+            bar3.setValue(59);
+            bar4.setMaximum(60);
+            bar4.setValue(59);
+            while(c1.getLista().size()!=0||c2.getLista().size()!=0||c3.getLista().size()!=0||c4.getLista().size()!=0){
+                Cajero caj1=new Cajero();
+                Cajero caj2=new Cajero();
+                Cajero caj3=new Cajero();
+                Cajero caj4=new Cajero();
+                listaca.add(caj1);
+                listaca.add(caj2);
+                listaca.add(caj3);
+                listaca.add(caj4);
+                
+                caj1.setP(p1);
+                caj2.setP(p2);
+                caj3.setP(p3);
+                caj4.setP(p4);
+                
+                caj1.setVacio(true);
+                caj2.setVacio(true);
+                caj3.setVacio(true);
+                caj4.setVacio(true);
+                if(caj1.isVacio()==true&&caj2.isVacio()==true&&caj3.isVacio()==true&&caj4.isVacio()==true){
+                    Random r= new Random();
+                    int t=r.nextInt(4)+1;
+                    if(t==1){
+                        caj1.setVacio(false);
+                        if(c1.getLista().size()!=0){
+                            caj1.setPersona(c1.getLista().get(0));
+                            Random r2= new Random();
+                            int rr2=r2.nextInt(3)+1;
+                            conts+=rr2;
+                            jseconds2.setText(conts+"");
+                            ppcaj1.setText(c1.getLista().get(0).getNombre());
+                            try {
+                                Thread.sleep(rr2+1000);
+                            } catch (InterruptedException ex) {
+                                //Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+                            }
+                            //cc--;
+                            if(c1.getLista().size()!=0)
+                            c1.Quita();
+                            String pass=caj1.getPersona().getNombre()+" , Accion: "+caj1.getPersona().getTransaccion()+" Tardanza: "+rr2;
+                            caj1.setTipo(pass+"\n");
+                            p1.Mete(pass);//meto a la pila
+
+                            JOptionPane.showMessageDialog(jd2, "CAJERO VACIO SIGUIENTE PERSONA");
+                            caj1.setVacio(true);
+                            
+                            //System.out.println("Control : "+cc);
+                           
+                            
+                            //colapersona.setText(cola1.getLista().get(0).getNombre());
+                            
+                            
+                        }
+                        if(c1.getLista().size()>1){
+                            pper1.setText(c1.getLista().get(1).getNombre());
+                        }
+                        cont1--;
+                        bar1.setValue(cont1);
+                    }
+                    //2
+                    if(t==2){
+                        caj2.setVacio(false);
+                        if(c2.getLista().size()!=0){
+                            caj2.setPersona(c2.getLista().get(0));
+                            Random r2= new Random();
+                            int rr2=r2.nextInt(3)+1;
+                            conts+=rr2;
+                            jseconds2.setText(conts+"");
+                            ppcaj2.setText(c2.getLista().get(0).getNombre());
+                            try {
+                                Thread.sleep(rr2+1000);
+                            } catch (InterruptedException ex) {
+                                //Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+                            }
+                            //cc--;
+                            if(c2.getLista().size()!=0)
+                            c2.Quita();
+                            String pass=caj2.getPersona().getNombre()+" , Accion: "+caj2.getPersona().getTransaccion()+" Tardanza: "+rr2;
+                            caj2.setTipo(pass+"\n");
+                            p2.Mete(pass);//meto a la pila
+
+                            JOptionPane.showMessageDialog(jd2, "CAJERO VACIO SIGUIENTE PERSONA");
+                            caj2.setVacio(true);
+                            
+                            //System.out.println("Control : "+cc);
+                           
+                            
+                            //colapersona.setText(cola1.getLista().get(0).getNombre());
+                            
+                            
+                        }
+                        if(c2.getLista().size()>1){
+                            pper2.setText(c2.getLista().get(1).getNombre());
+                        }
+                        cont2--;
+                        bar2.setValue(cont2);
+                    }//3
+                    
+                    if(t==3){
+                        caj3.setVacio(false);
+                        if(c3.getLista().size()!=0){
+                            caj3.setPersona(c3.getLista().get(0));
+                            Random r2= new Random();
+                            int rr2=r2.nextInt(3)+1;
+                            conts+=rr2;
+                            jseconds2.setText(conts+"");
+                            ppcaj3.setText(c3.getLista().get(0).getNombre());
+                            try {
+                                Thread.sleep(rr2+1000);
+                            } catch (InterruptedException ex) {
+                                //Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+                            }
+                            //cc--;
+                            if(c3.getLista().size()!=0)
+                            c3.Quita();
+                            String pass=caj3.getPersona().getNombre()+" , Accion: "+caj3.getPersona().getTransaccion()+" Tardanza: "+rr2;
+                            caj3.setTipo(pass+"\n");
+                            p3.Mete(pass);//meto a la pila
+
+                            JOptionPane.showMessageDialog(jd2, "CAJERO VACIO SIGUIENTE PERSONA");
+                            caj3.setVacio(true);
+                            
+                            //System.out.println("Control : "+cc);
+                           
+                            
+                            //colapersona.setText(cola1.getLista().get(0).getNombre());
+                            
+                            
+                        }
+                        if(c3.getLista().size()>1){
+                            pper3.setText(c3.getLista().get(1).getNombre());
+                        }
+                        cont3--;
+                        bar3.setValue(cont3);
+                    }
+                    if(t==4){
+                        caj4.setVacio(false);
+                        if(c4.getLista().size()!=0){
+                            caj4.setPersona(c4.getLista().get(0));
+                            Random r2= new Random();
+                            int rr2=r2.nextInt(3)+1;
+                            conts+=rr2;
+                            jseconds2.setText(conts+"");
+                            ppcaj4.setText(c4.getLista().get(0).getNombre());
+                            try {
+                                Thread.sleep(rr2+1000);
+                            } catch (InterruptedException ex) {
+                                //Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+                            }
+                            //cc--;
+                            if(c4.getLista().size()!=0)
+                            c4.Quita();
+                            String pass=caj4.getPersona().getNombre()+" , Accion: "+caj4.getPersona().getTransaccion()+" Tardanza: "+rr2;
+                            caj4.setTipo(pass+"\n");
+                            p4.Mete(pass);//meto a la pila
+
+                            JOptionPane.showMessageDialog(jd2, "CAJERO VACIO SIGUIENTE PERSONA");
+                            caj4.setVacio(true);
+                            
+                            //System.out.println("Control : "+cc);
+                           
+                            
+                            //colapersona.setText(cola1.getLista().get(0).getNombre());
+                            
+                            
+                        }
+                        if(c4.getLista().size()>1){
+                            pper4.setText(c4.getLista().get(1).getNombre());
+                        }
+                        cont4--;
+                        bar4.setValue(cont4);
+                        
+                    }
+                }
+                if(caj1.isVacio()==true){
+                    caj1.setVacio(false);
+                        if(c1.getLista().size()!=0){
+                            caj1.setPersona(c1.getLista().get(0));
+                            Random r2= new Random();
+                            int rr2=r2.nextInt(3)+1;
+                            conts+=rr2;
+                            jseconds2.setText(conts+"");
+                            ppcaj1.setText(c1.getLista().get(0).getNombre());
+                            try {
+                                Thread.sleep(rr2+1000);
+                            } catch (InterruptedException ex) {
+                                //Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+                            }
+                            //cc--;
+                            if(c1.getLista().size()!=0)
+                            c1.Quita();
+                            String pass=caj1.getPersona().getNombre()+" , Accion: "+caj1.getPersona().getTransaccion()+" Tardanza: "+rr2;
+                            caj1.setTipo(pass+"\n");
+                            p1.Mete(pass);//meto a la pila
+
+                            JOptionPane.showMessageDialog(jd2, "CAJERO VACIO SIGUIENTE PERSONA");
+                            caj1.setVacio(true);
+                            
+                            //System.out.println("Control : "+cc);
+                           
+                            
+                            //colapersona.setText(cola1.getLista().get(0).getNombre());
+                            
+                            
+                        }
+                        if(c1.getLista().size()>1){
+                            pper1.setText(c1.getLista().get(1).getNombre());
+                        }
+                    cont1--;
+                    bar1.setValue(cont1);
+                }
+                if(caj2.isVacio()==true){
+                    caj2.setVacio(false);
+                        if(c2.getLista().size()!=0){
+                            caj2.setPersona(c2.getLista().get(0));
+                            Random r2= new Random();
+                            int rr2=r2.nextInt(3)+1;
+                            conts+=rr2;
+                            jseconds2.setText(conts+"");
+                            ppcaj2.setText(c2.getLista().get(0).getNombre());
+                            try {
+                                Thread.sleep(rr2+1000);
+                            } catch (InterruptedException ex) {
+                                //Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+                            }
+                            //cc--;
+                            if(c2.getLista().size()!=0)
+                            c2.Quita();
+                            String pass=caj2.getPersona().getNombre()+" , Accion: "+caj2.getPersona().getTransaccion()+" Tardanza: "+rr2;
+                            caj2.setTipo(pass+"\n");
+                            p2.Mete(pass);//meto a la pila
+
+                            JOptionPane.showMessageDialog(jd2, "CAJERO VACIO SIGUIENTE PERSONA");
+                            caj2.setVacio(true);
+                            
+                            //System.out.println("Control : "+cc);
+                           
+                            
+                            //colapersona.setText(cola1.getLista().get(0).getNombre());
+                            
+                            
+                        }
+                        if(c2.getLista().size()>1){
+                            pper2.setText(c2.getLista().get(1).getNombre());
+                        }
+                    cont2--;
+                    bar2.setValue(cont2);
+                }
+                if(caj3.isVacio()==true){
+                    caj3.setVacio(false);
+                        if(c3.getLista().size()!=0){
+                            caj3.setPersona(c3.getLista().get(0));
+                            Random r2= new Random();
+                            int rr2=r2.nextInt(3)+1;
+                            conts+=rr2;
+                            jseconds2.setText(conts+"");
+                            ppcaj3.setText(c3.getLista().get(0).getNombre());
+                            try {
+                                Thread.sleep(rr2+1000);
+                            } catch (InterruptedException ex) {
+                                //Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+                            }
+                            //cc--;
+                            if(c3.getLista().size()!=0)
+                            c3.Quita();
+                            String pass=caj3.getPersona().getNombre()+" , Accion: "+caj3.getPersona().getTransaccion()+" Tardanza: "+rr2;
+                            caj3.setTipo(pass+"\n");
+                            p3.Mete(pass);//meto a la pila
+
+                            JOptionPane.showMessageDialog(jd2, "CAJERO VACIO SIGUIENTE PERSONA");
+                            caj3.setVacio(true);
+                            
+                            //System.out.println("Control : "+cc);
+                           
+                            
+                            //colapersona.setText(cola1.getLista().get(0).getNombre());
+                            
+                            
+                        }
+                        if(c3.getLista().size()>1){
+                            pper3.setText(c3.getLista().get(1).getNombre());
+                        }
+                        cont3--;
+                        bar3.setValue(cont3);
+                }
+                if(caj4.isVacio()==true){
+                    caj4.setVacio(false);
+                        if(c4.getLista().size()!=0){
+                            caj4.setPersona(c4.getLista().get(0));
+                            Random r2= new Random();
+                            int rr2=r2.nextInt(3)+1;
+                            conts+=rr2;
+                            jseconds2.setText(conts+"");
+                            ppcaj4.setText(c4.getLista().get(0).getNombre());
+                            try {
+                                Thread.sleep(rr2+1000);
+                            } catch (InterruptedException ex) {
+                                //Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+                            }
+                            //cc--;
+                            if(c4.getLista().size()!=0)
+                            c4.Quita();
+                            String pass=caj4.getPersona().getNombre()+" , Accion: "+caj4.getPersona().getTransaccion()+" Tardanza: "+rr2;
+                            caj4.setTipo(pass+"\n");
+                            p4.Mete(pass);//meto a la pila
+
+                            JOptionPane.showMessageDialog(jd2, "CAJERO VACIO SIGUIENTE PERSONA");
+                            caj4.setVacio(true);
+                            
+                            //System.out.println("Control : "+cc);
+                           
+                            
+                            //colapersona.setText(cola1.getLista().get(0).getNombre());
+                            
+                            
+                        }
+                        if(c4.getLista().size()>1){
+                            pper4.setText(c4.getLista().get(1).getNombre());
+                        }
+                        cont4--;
+                        bar4.setValue(cont4);
+                }
+
+            }
+            bar1.setValue(0);
+            bar2.setValue(0);
+            bar3.setValue(0);
+            bar4.setValue(0);
+            System.out.println("SIZE COLA 1: "+c1.getLista().size());   
+            System.out.println("SIZE COLA 2: "+c2.getLista().size());  
+            System.out.println("SIZE COLA 3: "+c3.getLista().size()); 
+            System.out.println("SIZE COLA 4: "+c4.getLista().size());
+            System.out.println("PILA 1");
+            p1.imprime();
+             System.out.println("SIZE 1: "+p1.getLista().size());
+            System.out.println("PILA 2");
+            p2.imprime();
+            System.out.println("SIZE 2: "+p2.getLista().size());
+            System.out.println("PILA 3");
+            p3.imprime();
+            System.out.println("SIZE 3: "+p3.getLista().size());
+            System.out.println("PILA 4");
+            p4.imprime();
+            System.out.println("SIZE 4: "+p4.getLista().size());
+            jdr1.setModal(true); //no poder tocar a principal
+            jdr1.pack();//tamaño se acople a los controles preestablecidos
+            jdr1.setLocationRelativeTo(this);//centro de la principal
+            jdr1.setVisible(true);
+            listaca.remove(0);
+                
          }
     }//GEN-LAST:event_jButton5ActionPerformed
 
